@@ -1,0 +1,82 @@
+/*--------------- Panel ------------------*/
+.panel {
+    border-radius: 8px;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .panel-heading {
+    font-size: 13px;
+    padding-left: 5px;
+    color: white;
+  }
+
+  .panel-body {
+    font-size: 14px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 8px;
+    background-color: aliceblue;
+  }
+
+  .primary-panel {
+    border-color: navy;
+    background-color: navy;
+  }
+
+  .secondary-panel {
+    border-color: olive;
+    background-color: olive;
+  }
+
+  .error-panel {
+    border-color: crimson;
+    background-color: crimson;
+  }
+
+/*---------------- Buttons -------------------*/
+  .buttons {
+    border-radius: 4px;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    text-decoration: none;
+    border-style: none;
+  }
+
+  .navy-buttons {
+    border-color: navy;
+    background-color: navy;
+  }
+
+  .olive-buttons {
+    border-color: olive;
+    background-color: olive;
+  }
+
+  .crimson-buttons {
+    border-color: crimson;
+    background-color: crimson;
+  }
+
+  /*------ Buttons with overflowed text ------*/
+  .buttons-overflow {
+    display: inline-block;
+    width: 96px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 4px;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    text-decoration: none;
+    border-style: none;
+  }
+
+  .button-sections{
+    margin-bottom: 10px;
+  }
